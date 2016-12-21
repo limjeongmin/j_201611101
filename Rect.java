@@ -24,12 +24,12 @@ public class Rect extends Shape{
 		return "Rect.." + super.toString();
 	}
 	
-	public static void main(Stirng[] args){
+	public static void main(String[] args){
 		Rect r=new Rect(20.0,25.0);
-		System.out.println("Area is" + r.calcAre());
+		System.out.println("Area is" + r.calcArea());
 		System.out.println("Perimeter is" + r.calcPerimeter());
 		System.out.print(r.toString());
 	}
 }
-}	
+	
 			

@@ -1,14 +1,14 @@
 package com.sd.gui;
 
-import javax.swing.JFrame;
-import javax.swing.JButton;
+import javax.swing.*;
+
 import java.awt.*;
 
 
 public class CalcAreaGUIMain{
   public static void main(String[] args){
-    JFrame f=new JFRame();
-    JPanel panel=newJPanel(new GridLayout(3,2));
+    JFrame f=new JFrame();
+    JPanel panel=new JPanel(new GridLayout(3,2));
     f.getContentPane().add(panel);
     JLabel label1=new JLabel("radius");
     JLabel label2=new JLabel("area");
